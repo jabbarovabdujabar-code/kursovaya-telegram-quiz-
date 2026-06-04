@@ -1,0 +1,18 @@
+{
+  "name": "kursovaya-telegram-quiz",
+  "version": "1.0.0",
+  "description": "Курсовой проект: викторина из JSON в формате Telegram-бота",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint:basic": "node -c src/index.js"
+  },
+  "keywords": ["telegram", "bot", "quiz", "coursework"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
